@@ -1,0 +1,19 @@
+body {
+  background-color: #1e213a;
+}
+
+.card {
+  background-color: #6a5acd;
+}
+
+.card .card-body{
+    color: #E7E7EB;
+}
+
+.card .card-body span.small{
+    color: rgb(178, 179, 180);
+}
+
+.card .card-body .icons i{
+    color: #4FC3F7;
+}
