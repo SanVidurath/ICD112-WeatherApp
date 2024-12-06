@@ -13,7 +13,7 @@ function searchCity() {
     Swal.fire("Have to input a city to search!!!");
   } else {
     fetch(
-      `http://api.weatherapi.com/v1/current.json?key=eb9740e3a7f24c84a5074204241604&q=${cityName}`
+      `https://api.weatherapi.com/v1/current.json?key=eb9740e3a7f24c84a5074204241604&q=${cityName}`
     )
       .then((res) => {
         if (res.ok) {
