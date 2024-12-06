@@ -24,6 +24,7 @@ function searchCity() {
       })
       .then((data) => setData(data))
       .catch((error) => {
+        console.log(error);
         errorText.innerHTML = "City not found. Try again later!!!";
       });
     inputText.value = "";
